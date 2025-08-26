@@ -4,4 +4,4 @@
 
 ## Ejercicios
 
--[01: HTML basico y formato de contenido](/01_formato_texto/index.html)
+-[01: HTML basico y formato de contenido](/01_formato_texto/index.html) -[02: Divs y enlaces](/02_divs_enlaces/index.html)
