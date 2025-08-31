@@ -6,6 +6,7 @@
 
 1. [01: HTML basico y formato de contenido](/01_formato_texto/index.html)
 2. [02: Divs y enlaces](/02_divs_enlaces/index.html)
+3. [03: Listas y multimedias](/03_listas_multimedia/index.html)
 
 ## Ejercicios
 
