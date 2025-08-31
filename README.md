@@ -10,3 +10,4 @@
 ## Ejercicios
 
 1. [Ejercicio #1 - Página web con elementos básicos](/Ejercicios/index.html)
+2. [Ejercicio #2 - Listas, Multimedia y tablas](/Ejercicios/index2.html)
