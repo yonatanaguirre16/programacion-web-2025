@@ -7,8 +7,11 @@
 1. [01: HTML basico y formato de contenido](/01_formato_texto/index.html)
 2. [02: Divs y enlaces](/02_divs_enlaces/index.html)
 3. [03: Listas y multimedias](/03_listas_multimedia/index.html)
+4. [04: Formularios](/04_formularios/index.html)
+5. [05: Semántica](/05_semantica/index.html)
 
 ## Ejercicios
 
 1. [Ejercicio #1 - Página web con elementos básicos](/Ejercicios/index.html)
 2. [Ejercicio #2 - Listas, Multimedia y tablas](/Ejercicios/index2.html)
+3. [Ejercicio #3 - Formularios y metadatosTarea](/Ejercicios/index3.html)
