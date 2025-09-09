@@ -9,9 +9,16 @@
 3. [03: Listas y multimedias](/03_listas_multimedia/index.html)
 4. [04: Formularios](/04_formularios/index.html)
 5. [05: Semántica](/05_semantica/index.html)
+6. [06: Selectores basicos](/06_selectores_basicos/index.html)
 
 ## Ejercicios
+
+# Unidad 1
 
 1. [Ejercicio #1 - Página web con elementos básicos](/Ejercicios/index.html)
 2. [Ejercicio #2 - Listas, Multimedia y tablas](/Ejercicios/index2.html)
 3. [Ejercicio #3 - Formularios y metadatosTarea](/Ejercicios/index3.html)
+
+# Unidad 2
+
+1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/Ejercicios/index4.html)

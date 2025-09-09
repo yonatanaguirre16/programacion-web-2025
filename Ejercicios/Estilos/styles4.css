@@ -1,0 +1,93 @@
+body {
+  background-color: #0dd48e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  background-color: #2aac6b;
+  width: 50%;
+  margin-left: 25%;
+  justify-content: baseline;
+}
+
+hr {
+  border-color: black;
+  width: 70%;
+  border-width: 3px;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+li {
+  margin: 0;
+  padding: 4px;
+}
+
+img {
+  border-style: dashed;
+  display: block;
+  margin: auto;
+}
+
+table {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: rgb(202, 56, 12);
+  font-size: 17px;
+  background-color: black;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+#main-title {
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+#table-title {
+  font-size: 17px;
+}
+
+#noticias-top {
+  font-size: 17px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#frame-yt {
+  display: block;
+  margin: auto;
+}
+
+#rank-style {
+  text-align: center;
+}
+
+#ranking {
+  color: rgb(202, 56, 12);
+  width: 20%;
+}
+
+.estado {
+  font-size: 15px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.form {
+  padding-left: 20%;
+  margin-right: 5em;
+}
