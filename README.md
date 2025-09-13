@@ -10,6 +10,7 @@
 4. [04: Formularios](/04_formularios/index.html)
 5. [05: Semántica](/05_semantica/index.html)
 6. [06: Selectores basicos](/06_selectores_basicos/index.html)
+7. [07: Dimensiones](/07_css_dimensiones/index.html)
 
 ## Ejercicios
 
@@ -22,3 +23,4 @@
 # Unidad 2
 
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/Ejercicios/index4.html)
+2. [Ejercicio #2 - Tarjeta](/Ejercicios/index5.html)

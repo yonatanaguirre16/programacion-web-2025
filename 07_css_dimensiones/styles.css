@@ -1,0 +1,17 @@
+body {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.yellow-bg {
+  background-color: yellow;
+}
+
+.box {
+  max-width: fit-content;
+  height: fit-content;
+}
