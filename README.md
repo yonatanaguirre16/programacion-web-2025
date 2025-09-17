@@ -24,3 +24,4 @@
 
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/Ejercicios/index4.html)
 2. [Ejercicio #2 - Tarjeta](/Ejercicios/index5.html)
+3. [Ejercicio #3 - Header Sticky](/Ejercicios/index6.html)
