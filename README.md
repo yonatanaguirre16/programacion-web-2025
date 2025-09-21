@@ -11,6 +11,9 @@
 5. [05: Semántica](/05_semantica/index.html)
 6. [06: Selectores basicos](/06_selectores_basicos/index.html)
 7. [07: Dimensiones](/07_css_dimensiones/index.html)
+8. [08: CSS position](/08_css_position/index.html)
+9. [09: Pseudoelementos](/09_pseudoelementos/index.html)
+10. [10: Pseudoclases](/10_pseudoclases/index.html)
 
 ## Ejercicios
 
@@ -25,3 +28,4 @@
 1. [Ejercicio #1 - Formato de texto, fuentes, fondos y border](/Ejercicios/index4.html)
 2. [Ejercicio #2 - Tarjeta](/Ejercicios/index5.html)
 3. [Ejercicio #3 - Header Sticky](/Ejercicios/index6.html)
+4. [Ejercicio #4 - Formulario con pseudoclases, pseudoelementos y estilos](/Ejercicios/index7.html)
