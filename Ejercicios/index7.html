@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="UABCS" />
+    <meta name="descripcion" content="Sitio con ejemplo de formulario" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Ejercicios/Estilos/styles7.css" />
+    <title>Formulario con estilos, pseudoelementos y pseudoclases</title>
+  </head>
+  <body>
+    <form action="gracias.html" method="get">
+      <fieldset>
+        <legend>Información Basica</legend>
+        <label for="nombre">Nombre Completo</label>
+        <input
+          id="nombre"
+          type="text"
+          name="nombre"
+          placeholder="ingresa un texto"
+        />
+        <br />
+        <label for="password">Contraseña</label>
+        <input
+          id="contraseña"
+          type="password"
+          name="password"
+          placeholder="ingresa la contraseña"
+          required
+        />
+        <br />
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Ingresa un correo"
+        />
+        <br />
+        <label for="edad">Edad</label>
+        <input id="edad " type="number" placeholder="Ingresa tu edad" />
+      </fieldset>
+
+      <br />
+      <fieldset>
+        <legend>Informacion Complementaria</legend>
+        <label for="descripcion">Descripcion</label>
+        <br />
+        <textarea
+          name="descripcion"
+          id="descripcion"
+          cols="20"
+          rows="5"
+          placeholder="Ingresa tu descripcion"
+        ></textarea>
+        <br />
+        <label for="pais">Pais</label>
+        <br />
+        <select name="pais" id="pais">
+          <option value="mexico">Mexico</option>
+          <option value="Estados Unidos">Estados Unidos</option>
+          <option value="España">España</option>
+          <option value="Africa">Africa</option>
+        </select>
+      </fieldset>
+      <br />
+      <label for="lenguajes">Lenguajes de Programacion</label>
+      <br />
+      <input list="lenguajes" name="lenguaje" />
+      <br />
+      <datalist id="lenguajes">
+        <option value="javascript"></option>
+        <option value="Python"></option>
+        <option value="C++"></option>
+        <option value="Java"></option>
+      </datalist>
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
