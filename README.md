@@ -14,6 +14,8 @@
 8. [08: CSS position](/08_css_position/index.html)
 9. [09: Pseudoelementos](/09_pseudoelementos/index.html)
 10. [10: Pseudoclases](/10_pseudoclases/index.html)
+11. [11: CSS Especificidad](/11_css_especifidad/index.html)
+12. [12: CSS Flexbox](/12_css_flexbox/index.html)
 
 ## Ejercicios
 
@@ -29,3 +31,4 @@
 2. [Ejercicio #2 - Tarjeta](/Ejercicios/index5.html)
 3. [Ejercicio #3 - Header Sticky](/Ejercicios/index6.html)
 4. [Ejercicio #4 - Formulario con pseudoclases, pseudoelementos y estilos](/Ejercicios/index7.html)
+5. [Ejercicio #5 - Sitio con tarjetas(flex)](/Ejercicios/index8.html)
