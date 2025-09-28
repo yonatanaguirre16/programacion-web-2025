@@ -16,6 +16,7 @@
 10. [10: Pseudoclases](/10_pseudoclases/index.html)
 11. [11: CSS Especificidad](/11_css_especifidad/index.html)
 12. [12: CSS Flexbox](/12_css_flexbox/index.html)
+13. [13: CSS Variables](/13_css_variables/index.html)
 
 ## Ejercicios
 
@@ -32,3 +33,4 @@
 3. [Ejercicio #3 - Header Sticky](/Ejercicios/index6.html)
 4. [Ejercicio #4 - Formulario con pseudoclases, pseudoelementos y estilos](/Ejercicios/index7.html)
 5. [Ejercicio #5 - Sitio con tarjetas(flex)](/Ejercicios/index8.html)
+6. [Ejercicio #6 - Variables y funciones](/Ejercicios/index9.html)

@@ -1,0 +1,46 @@
+:root {
+  --color-principal: rgb(52, 152, 219);
+  --color-secundario: rgb(155, 89, 182);
+  --padding-card: 20px;
+  --tam-fuente: 20px;
+  --h2-card-color: rgb(52, 152, 219);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    var(--color-principal),
+    var(--color-secundario)
+  );
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.card {
+  background: white;
+  color: var(--color-secundario);
+  width: min(80%, 800px);
+  border: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+
+img {
+  width: 100%;
+  height: max(300px, 30vh);
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h2 {
+  margin: 10px 0;
+  color: var(--h2-card-color);
+}
