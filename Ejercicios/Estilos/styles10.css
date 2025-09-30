@@ -15,7 +15,9 @@
 body {
   background-color: var(--bg-color);
   font-family: var(--font-family);
-  min-height: 200vh;
+  min-height: 120vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -183,10 +185,11 @@ main {
 }
 
 .footer-container {
-  width: auto;
+  width: 100%;
   display: grid;
   height: fit-content;
   background-color: white;
+  margin-top: auto;
 }
 
 .footer-text {
