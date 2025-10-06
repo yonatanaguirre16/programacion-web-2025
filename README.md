@@ -18,6 +18,7 @@
 12. [12: CSS Flexbox](/12_css_flexbox/index.html)
 13. [13: CSS Variables](/13_css_variables/index.html)
 14. [14: CSS Grid](/14_css.grid/index.html)
+15. [15: CSS Responsivo](/15_css_responsivo/index.html)
 
 ## Ejercicios
 
@@ -36,3 +37,4 @@
 5. [Ejercicio #5 - Sitio con tarjetas(flex)](/Ejercicios/index8.html)
 6. [Ejercicio #6 - Variables y funciones](/Ejercicios/index9.html)
 7. [Ejercicio #7 - CSS Grid ](/Ejercicios/index10.html)
+8. [Ejercicio #8 - Sitio responsivo](/Ejercicios/index11.html)
