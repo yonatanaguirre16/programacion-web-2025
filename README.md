@@ -43,4 +43,4 @@
 
 # Unidad 3
 
-1. [Ejercicio #1 - Calculadora](/Ejercicios_JS/index1.html)
+1. [Ejercicio #1 - Calculadora en JS](/Ejercicios_JS/index1.html)
