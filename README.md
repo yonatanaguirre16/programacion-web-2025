@@ -19,6 +19,7 @@
 13. [13: CSS Variables](/13_css_variables/index.html)
 14. [14: CSS Grid](/14_css.grid/index.html)
 15. [15: CSS Responsivo](/15_css_responsivo/index.html)
+16. [16: JS Introduccion](/16_js_introduccion/index.html)
 
 ## Ejercicios
 
@@ -39,3 +40,7 @@
 7. [Ejercicio #7 - CSS Grid ](/Ejercicios/index10.html)
 8. [Ejercicio #8 - Sitio responsivo](/Ejercicios/index11.html)
 9. [Examen - Unidad 3](/examen-u3/public/index.html)
+
+# Unidad 3
+
+1. [Ejercicio #1 - Calculadora](/Ejercicios%20JS/index1.html)
