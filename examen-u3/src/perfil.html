@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perfil • DASC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.4.19/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+
+    <style>
+      body {
+        font-family: "Nunito", sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-[#833ab4] min-h-screen flex flex-col">
+    <nav class="navbar bg-[#833ab4] text-white px-4">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-[#833ab4] rounded-box w-52"
+          >
+            <li><a href="../public/index.html">Inicio</a></li>
+            <li><a>Mensajes</a></li>
+            <li><a href="../src/perfil.html">Perfil</a></li>
+          </ul>
+        </div>
+        <div
+          class="w-[80px] h-[80px] flex items-center justify-center lg:ml-10"
+        >
+          <img
+            src="../files/logouabcsnet.png"
+            alt="logo"
+            class="w-full h-full object-contain"
+          />
+        </div>
+      </div>
+
+      <div class="navbar-end hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="../public/index.html">Inicio</a></li>
+          <li><a>Mensajes</a></li>
+          <li><a href="../src/perfil.html">Perfil</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="flex justify-center items-center flex-grow">
+      <div class="card bg-white shadow-xl rounded-2xl max-w-sm w-full mx-4">
+        <div class="card-body items-center text-center">
+          <div class="avatar mb-4">
+            <div class="w-24 rounded-full ring ring-[#833ab4]">
+              <img src="https://i.pravatar.cc/120?img=8" alt="Foto de perfil" />
+            </div>
+          </div>
+
+          <h2 class="text-2xl font-semibold text-[#833ab4]">Yonatan Aguirre</h2>
+          <p class="text-gray-500 mb-4">
+            DASC • Ing. En Desarrollo de Software
+          </p>
+
+          <div
+            class="w-full rounded-xl p-4 text-left mb-4 bg-[#833ab4] text-white"
+          >
+            <h3 class="font-semibold mb-2">Información Personal</h3>
+            <p><strong>Correo:</strong> yonatan.aguirre@dasc.mx</p>
+            <p><strong>Teléfono:</strong> +52 612 14 07489</p>
+            <p><strong>Ubicación:</strong> La Paz, BCS</p>
+          </div>
+
+          <div class="card-actions justify-center gap-2">
+            <button
+              class="btn btn-primary bg-[#833ab4] border-none hover:bg-[#6d2fa1] text-white"
+            >
+              Editar Perfil
+            </button>
+            <button class="btn bg-gray-200 hover:bg-gray-300 text-[#833ab4]">
+              Ver Publicaciones
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="w-full bg-white mt-auto">
+      <div class="text-center">
+        <h3 class="text-gray-500 italic text-sm py-4">
+          2025 - Ing. Yonatan Aguirre de León - IDS TM 5to Semestre
+        </h3>
+      </div>
+    </footer>
+  </body>
+</html>
