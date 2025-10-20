@@ -20,6 +20,7 @@
 14. [14: CSS Grid](/14_css.grid/index.html)
 15. [15: CSS Responsivo](/15_css_responsivo/index.html)
 16. [16: JS Introduccion](/16_js_introduccion/index.html)
+17. [17: JS DOM](/17_js_DOM/index.html)
 
 ## Ejercicios
 
@@ -44,3 +45,4 @@
 # Unidad 3
 
 1. [Ejercicio #1 - Calculadora en JS](/Ejercicios_JS/index1.html)
+2. [Ejercicio #2 - Manipulación de estilos](/Ejercicios_JS/index2.html)

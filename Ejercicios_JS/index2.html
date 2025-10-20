@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicios JS - #2 Manipulación de Estilos</title>
+    <script src="/Ejercicios_JS/js/index2.js" defer></script>
+  </head>
+  <style>
+    button {
+      margin: 5px;
+      border-radius: 5px;
+      border-style: none;
+      color: white;
+      font-size: 25px;
+      padding: 17px;
+      cursor: pointer;
+    }
+
+    #container {
+      box-shadow: 10px 10px 21px 0px rgba(143, 134, 134, 0.75);
+      padding: 30px;
+      width: 60%;
+      display: block;
+      align-items: center;
+      margin: auto;
+    }
+
+    #red {
+      background-color: red;
+    }
+
+    #blue {
+      background-color: blue;
+    }
+    #green {
+      background-color: green;
+    }
+    #restart {
+      background-color: gray;
+    }
+  </style>
+
+  <body>
+    <div id="container">
+      <h1>Cambiar Color de Fondo</h1>
+      <div id="btn-container">
+        <button id="red">Rojo</button>
+        <button id="green">Verde</button>
+        <button id="blue">Azul</button>
+        <button id="restart">Restablecer</button>
+      </div>
+    </div>
+  </body>
+</html>
