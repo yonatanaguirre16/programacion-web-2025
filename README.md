@@ -21,6 +21,7 @@
 15. [15: CSS Responsivo](/15_css_responsivo/index.html)
 16. [16: JS Introduccion](/16_js_introduccion/index.html)
 17. [17: JS DOM](/17_js_DOM/index.html)
+18. [18: JS Eventos](/18_js_eventos/index.html)
 
 ## Ejercicios
 
@@ -46,3 +47,4 @@
 
 1. [Ejercicio #1 - Calculadora en JS](/Ejercicios_JS/index1.html)
 2. [Ejercicio #2 - Manipulación de estilos](/Ejercicios_JS/index2.html)
+3. [Ejercicio #3 - Calculadora Visual](/Ejercicios_JS/index3.html)

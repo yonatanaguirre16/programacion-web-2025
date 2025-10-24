@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Bubblign</title>
+  </head>
+  <body>
+    <div id="padre">
+      <button id="hijo">click</button>
+    </div>
+    <script>
+      document.getElementById("padre").addEventListener("click", (e) => {
+        console.log(e.target.id);
+        console.log("padre");
+      });
+
+      document.getElementById("hijo").addEventListener("click", (e) => {
+        // console.log(e);
+        // e.stopPropagation();
+        // console.log("hijo");
+      });
+    </script>
+  </body>
+</html>
