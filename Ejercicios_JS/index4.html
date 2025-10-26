@@ -82,7 +82,7 @@
       const boton = document.getElementById("btnAgregar");
       const lista = document.getElementById("lista");
 
-      let historialTareas = JSON.parse(localStorage.getItem("historial"));
+      let historialTareas = [];
 
       function mostrarTareas() {
         lista.innerHTML = "";
@@ -125,6 +125,11 @@
           mostrarTareas();
         }
       });
+
+      const tareasGuardadas = localStorage.getItem("historial");
+      if (tareasGuardadas) {
+        historialTareas = JSON.parse(tareasGuardadas);
+      }
 
       mostrarTareas();
     </script>
