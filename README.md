@@ -48,3 +48,4 @@
 1. [Ejercicio #1 - Calculadora en JS](/Ejercicios_JS/index1.html)
 2. [Ejercicio #2 - Manipulación de estilos](/Ejercicios_JS/index2.html)
 3. [Ejercicio #3 - Calculadora Visual](/Ejercicios_JS/index3.html)
+4. [Ejercicio #4 - Lista de tareas](/Ejercicios_JS/index4.html)

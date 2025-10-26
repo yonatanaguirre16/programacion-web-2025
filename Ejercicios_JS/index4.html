@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio #4 - Lista de Tareas</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .tareas {
+      max-width: fit-content;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: auto;
+      padding: 25px;
+      justify-content: center;
+    }
+
+    #title {
+      text-align: center;
+      text-transform: capitalize;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px 0;
+      padding: 5px 10px;
+      border-bottom: 1px solid gray;
+    }
+
+    button.eliminar {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 14px;
+      border-radius: 12px;
+      color: #fff;
+      background-color: #d7220e;
+      border: none;
+      cursor: pointer;
+    }
+    button.eliminar:hover {
+      background-color: #954239;
+    }
+
+    #btnAgregar {
+      display: inline-block;
+      padding: 8px 14px;
+      font-size: 15px;
+      border-radius: 18px;
+      color: #fff;
+      background-color: #1976d2;
+      border: none;
+      cursor: pointer;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+
+    #btnAgregar:hover {
+      background-color: #125ea6;
+    }
+  </style>
+
+  <body>
+    <div class="tareas">
+      <h2 id="title">Mi lista de tareas</h2>
+      <div class="container-tareas">
+        <ul id="lista"></ul>
+      </div>
+      <input type="text" id="nuevaTarea" placeholder="Ingresa una tarea" />
+      <button id="btnAgregar">Agregar</button>
+    </div>
+
+    <script>
+      const input = document.getElementById("nuevaTarea");
+      const boton = document.getElementById("btnAgregar");
+      const lista = document.getElementById("lista");
+
+      let historialTareas = JSON.parse(localStorage.getItem("historial"));
+
+      function mostrarTareas() {
+        lista.innerHTML = "";
+        historialTareas.forEach((tarea, index) => {
+          const li = document.createElement("li");
+          li.textContent = tarea + " ";
+          const btnEliminar = document.createElement("button");
+          btnEliminar.textContent = "Eliminar";
+          btnEliminar.className = "eliminar";
+          btnEliminar.dataset.index = index;
+          li.appendChild(btnEliminar);
+          lista.appendChild(li);
+        });
+      }
+
+      // guardar en local storage
+      function guardarTareas() {
+        localStorage.setItem("historial", JSON.stringify(historialTareas));
+      }
+
+      // agregar
+      boton.onclick = function () {
+        const texto = input.value.trim();
+        if (texto !== "") {
+          historialTareas.push(texto);
+          guardarTareas();
+          mostrarTareas();
+          input.value = "";
+        } else {
+          alert("Ingresa el texto de la tarea");
+        }
+      };
+
+      // eliminar
+      lista.addEventListener("click", function (e) {
+        if (e.target.classList.contains("eliminar")) {
+          const index = e.target.dataset.index;
+          historialTareas.splice(index, 1);
+          guardarTareas();
+          mostrarTareas();
+        }
+      });
+
+      mostrarTareas();
+    </script>
+  </body>
+</html>
