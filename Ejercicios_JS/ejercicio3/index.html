@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 3 - Calculadora Visual</title>
+
+    <link rel="stylesheet" href="js/app.js" />
+    <script type="module" src="styles.css" defer></script>
+    <style>
+      body {
+        background-color: rgb(201, 193, 193);
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px;
+      }
+
+      .calc-container {
+        background-color: white;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 220px;
+      }
+
+      input {
+        width: 100%;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 10px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 8px;
+      }
+
+      button {
+        height: 45px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: rgb(66, 66, 215);
+        color: white;
+        transition: background 0.2s;
+      }
+
+      button:hover {
+        background-color: #3b3b91;
+      }
+
+      .historial-container {
+        background-color: white;
+        width: 320px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        height: fit-content;
+      }
+
+      .historial-container h3 {
+        margin-top: 0;
+        text-align: center;
+      }
+
+      li {
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="calc-container">
+        <input id="display" type="text" readonly />
+        <div class="buttons">
+          <button>7</button><button>8</button><button>9</button
+          ><button>/</button> <button>4</button><button>5</button
+          ><button>6</button><button>*</button> <button>1</button
+          ><button>2</button><button>3</button><button>-</button>
+          <button>0</button><button>C</button><button>=</button
+          ><button>+</button>
+        </div>
+      </div>
+
+      <div class="historial-container">
+        <h3>Historial de cálculos</h3>
+        <ul id="historial"></ul>
+      </div>
+    </div>
+  </body>
+</html>
