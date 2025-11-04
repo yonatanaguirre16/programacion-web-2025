@@ -22,6 +22,7 @@
 16. [16: JS Introduccion](/16_js_introduccion/index.html)
 17. [17: JS DOM](/17_js_DOM/index.html)
 18. [18: JS Eventos](/18_js_eventos/index.html)
+19. [19: JS Async](/19_js_asincrono/index.html)
 
 ## Ejercicios
 
@@ -49,3 +50,4 @@
 2. [Ejercicio #2 - Manipulación de estilos](/Ejercicios_JS/index2.html)
 3. [Ejercicio #3 - Calculadora Visual](/Ejercicios_JS/index3.html)
 4. [Ejercicio #4 - Lista de tareas](/Ejercicios_JS/index4.html)
+5. [Ejercicio #5 - Tarjeta con datos base de un gato](/Ejercicios_JS/ejercicio5/index.html)

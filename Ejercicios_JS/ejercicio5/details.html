@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalles del gato</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Detalles del gato</h1>
+
+    <div id="catGrid2"></div>
+
+    <script type="module">
+      import { getBreed } from "./js/api.js";
+      import { showBreed } from "./js/ui.js";
+
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get("id");
+
+      getBreed(id).then((data) => showBreed(data));
+    </script>
+  </body>
+</html>
